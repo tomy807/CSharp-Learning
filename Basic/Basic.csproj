@@ -13,8 +13,8 @@
     <Compile Include="..\Lesson01_HelloWorld\*.cs" LinkBase="Lessons\Lesson01" />
     <Compile Include="..\Lesson02_Variables\*.cs" LinkBase="Lessons\Lesson02" />
     <Compile Include="..\Lesson03_Operators\*.cs" LinkBase="Lessons\Lesson03" />
+    <Compile Include="..\Lesson04_TypeConversion\*.cs" LinkBase="Lessons\Lesson04" />
     <!-- Future lessons will be added here -->
-    <!-- <Compile Include="..\Lesson04_TypeConversion\*.cs" LinkBase="Lessons\Lesson04" /> -->
   </ItemGroup>
 
 </Project>

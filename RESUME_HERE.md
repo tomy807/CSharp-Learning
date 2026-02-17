@@ -1,7 +1,7 @@
 # C# Learning Progress - Resume Point
 
 **Last Session**: 2026-02-18
-**Status**: Ready for Lesson 4
+**Status**: Ready for Lesson 5
 
 ---
 
@@ -30,27 +30,35 @@
 - Null operators: `??`, `??=`
 - Operator precedence
 
----
-
-## Next Lesson
-
-**Lesson 4: Type Conversion and Casting**
-
-Topics to cover:
+### Lesson 4: Type Conversion and Casting
 - Implicit conversion (automatic)
 - Explicit casting (manual)
 - `Parse()` and `TryParse()` methods
 - `Convert` class
-- Overflow and checked/unchecked
+- `ToString()` and format specifiers
+- Checked/Unchecked overflow
+
+---
+
+## Next Lesson
+
+**Lesson 5: Conditional Statements (if, else, else if)**
+
+Topics to cover:
+- if statement
+- else and else if
+- Nested conditions
+- Logical operators in conditions
+- Common patterns and best practices
 
 ---
 
 ## Overall Progress
 
 ```
-Total Progress: 3/90 lessons (3.3%)
+Total Progress: 4/90 lessons (4.4%)
 
-Phase 1: C# Fundamentals    ███░░░░░░░░░░░░░░░░░  3/20
+Phase 1: C# Fundamentals    ████░░░░░░░░░░░░░░░░  4/20
 Phase 2: C# Intermediate    ░░░░░░░░░░░░░░░░░░░░  0/15
 Phase 3: C# Advanced        ░░░░░░░░░░░░░░░░░░░░  0/10
 Phase 4: WPF Development    ░░░░░░░░░░░░░░░░░░░░  0/20
@@ -72,6 +80,7 @@ Basic/
 ├── SessionSummary_Lesson01.md
 ├── SessionSummary_Lesson02.md
 ├── SessionSummary_Lesson03.md
+├── SessionSummary_Lesson04.md
 ├── Lesson01_HelloWorld/
 │   ├── Lesson.cs                    # Lesson content
 │   ├── Exercise.cs                  # Practice exercises
@@ -80,10 +89,14 @@ Basic/
 │   ├── Lesson.cs
 │   ├── Exercise.cs
 │   └── DataTypesReference.cs        # Reference
-└── Lesson03_Operators/
+├── Lesson03_Operators/
+│   ├── Lesson.cs
+│   ├── Exercise.cs
+│   └── OperatorsReference.cs        # Reference
+└── Lesson04_TypeConversion/
     ├── Lesson.cs
     ├── Exercise.cs
-    └── OperatorsReference.cs        # Reference
+    └── ConversionReference.cs       # Reference
 ```
 
 ## How to Run

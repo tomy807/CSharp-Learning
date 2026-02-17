@@ -158,18 +158,19 @@
 
 | Phase | Status | Lessons Completed |
 |-------|--------|-------------------|
-| C# Fundamentals | In Progress | 3/20 |
+| C# Fundamentals | In Progress | 4/20 |
 | C# Intermediate | Not Started | 0/15 |
 | C# Advanced | Not Started | 0/10 |
 | WPF Development | Not Started | 0/20 |
 | Unity Development | Not Started | 0/25 |
 
-**Current Lesson**: Lesson 4 - Type Conversion and Casting
+**Current Lesson**: Lesson 5 - Conditional Statements (if, else, else if)
 
 ### Completed Lessons
 - [x] Lesson 1: Introduction to C#, .NET, and Your First Program
 - [x] Lesson 2: Variables and Data Types
 - [x] Lesson 3: Operators (Arithmetic, Comparison, Logical)
+- [x] Lesson 4: Type Conversion and Casting
 
 ---
 

@@ -21,12 +21,13 @@ namespace CSharpLessons
                 Console.WriteLine("║  1.  Lesson 01: Hello World & Basics             ║");
                 Console.WriteLine("║  2.  Lesson 02: Variables and Data Types         ║");
                 Console.WriteLine("║  3.  Lesson 03: Operators                        ║");
-                Console.WriteLine("║  4.  Lesson 04: Type Conversion (Coming Soon)    ║");
+                Console.WriteLine("║  4.  Lesson 04: Type Conversion                  ║");
                 Console.WriteLine("║  ─────────────────────────────────────────────── ║");
                 Console.WriteLine("║  Exercises:                                      ║");
                 Console.WriteLine("║  E1. Exercise 01: Hello World Practice           ║");
                 Console.WriteLine("║  E2. Exercise 02: Variables Practice             ║");
                 Console.WriteLine("║  E3. Exercise 03: Operators Practice             ║");
+                Console.WriteLine("║  E4. Exercise 04: Type Conversion Practice       ║");
                 Console.WriteLine("║  ─────────────────────────────────────────────── ║");
                 Console.WriteLine("║  0.  Exit                                        ║");
                 Console.WriteLine("╚══════════════════════════════════════════════════╝");
@@ -48,8 +49,7 @@ namespace CSharpLessons
                         Lesson03.Lesson.Run();
                         break;
                     case "4":
-                        Console.WriteLine("Lesson 04 is coming soon!");
-                        WaitForKey();
+                        Lesson04.Lesson.Run();
                         break;
                     case "E1":
                         Lesson01.Exercise.Run();
@@ -59,6 +59,9 @@ namespace CSharpLessons
                         break;
                     case "E3":
                         Lesson03.Exercise.Run();
+                        break;
+                    case "E4":
+                        Lesson04.Exercise.Run();
                         break;
                     case "0":
                         Console.WriteLine("Goodbye! Happy coding!");
