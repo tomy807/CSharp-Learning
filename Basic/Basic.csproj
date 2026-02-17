@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>CSharpLessons</RootNamespace>
+  </PropertyGroup>
+
+  <!-- Include all lesson folders -->
+  <ItemGroup>
+    <Compile Include="..\Lesson01_HelloWorld\*.cs" LinkBase="Lessons\Lesson01" />
+    <Compile Include="..\Lesson02_Variables\*.cs" LinkBase="Lessons\Lesson02" />
+    <Compile Include="..\Lesson03_Operators\*.cs" LinkBase="Lessons\Lesson03" />
+    <!-- Future lessons will be added here -->
+    <!-- <Compile Include="..\Lesson04_TypeConversion\*.cs" LinkBase="Lessons\Lesson04" /> -->
+  </ItemGroup>
+
+</Project>
