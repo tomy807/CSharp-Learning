@@ -1,64 +1,45 @@
 # C# Learning Progress - Resume Point
 
 **Last Session**: 2026-02-18
-**Status**: Ready for Lesson 5
+**Status**: Ready for Lesson 9
 
 ---
 
 ## Completed Lessons
 
-### Lesson 1: Introduction to C#, .NET, and Your First Program
-- What is C# and .NET
-- Program structure (using, namespace, class, Main)
-- Console I/O (WriteLine, ReadLine)
-- Comments and string interpolation
+### Module 1: Getting Started (Complete!)
+- [x] Lesson 1: Hello World & Basics
+- [x] Lesson 2: Variables and Data Types
+- [x] Lesson 3: Operators
+- [x] Lesson 4: Type Conversion and Casting
 
-### Lesson 2: Variables and Data Types
-- Integer types (byte, short, int, long)
-- Floating-point types (float, double, decimal)
-- Boolean, char, string
-- Constants and naming conventions
-- Type inference with `var`
-
-### Lesson 3: Operators
-- Arithmetic: `+`, `-`, `*`, `/`, `%`
-- Comparison: `==`, `!=`, `>`, `<`, `>=`, `<=`
-- Logical: `&&`, `||`, `!`
-- Assignment: `=`, `+=`, `-=`, `*=`, `/=`
-- Increment/Decrement: `++`, `--`
-- Ternary: `? :`
-- Null operators: `??`, `??=`
-- Operator precedence
-
-### Lesson 4: Type Conversion and Casting
-- Implicit conversion (automatic)
-- Explicit casting (manual)
-- `Parse()` and `TryParse()` methods
-- `Convert` class
-- `ToString()` and format specifiers
-- Checked/Unchecked overflow
+### Module 2: Control Flow (Complete!)
+- [x] Lesson 5: Conditional Statements (if, else, else if)
+- [x] Lesson 6: Switch Statements and Pattern Matching
+- [x] Lesson 7: Loops - for and while
+- [x] Lesson 8: Loops - foreach and Loop Control
 
 ---
 
 ## Next Lesson
 
-**Lesson 5: Conditional Statements (if, else, else if)**
+**Lesson 9: Defining and Calling Methods**
 
 Topics to cover:
-- if statement
-- else and else if
-- Nested conditions
-- Logical operators in conditions
-- Common patterns and best practices
+- Method syntax and structure
+- Parameters and arguments
+- Return types
+- void methods
+- Method naming conventions
 
 ---
 
 ## Overall Progress
 
 ```
-Total Progress: 4/90 lessons (4.4%)
+Total Progress: 8/90 lessons (8.9%)
 
-Phase 1: C# Fundamentals    ████░░░░░░░░░░░░░░░░  4/20
+Phase 1: C# Fundamentals    ████████░░░░░░░░░░░░  8/20
 Phase 2: C# Intermediate    ░░░░░░░░░░░░░░░░░░░░  0/15
 Phase 3: C# Advanced        ░░░░░░░░░░░░░░░░░░░░  0/10
 Phase 4: WPF Development    ░░░░░░░░░░░░░░░░░░░░  0/20
@@ -71,32 +52,18 @@ Phase 5: Unity Development  ░░░░░░░░░░░░░░░░░�
 
 ```
 Basic/
-├── Basic.slnx                       # Solution file (open this in VS)
+├── Basic.slnx                       # Solution file
 ├── Basic/
-│   ├── Basic.csproj                 # Main project (includes all lessons)
-│   └── Program.cs                   # Main menu - select lesson to run
-├── Curriculum.md                    # Full 90-lesson curriculum
-├── RESUME_HERE.md                   # This file - your bookmark
-├── SessionSummary_Lesson01.md
-├── SessionSummary_Lesson02.md
-├── SessionSummary_Lesson03.md
-├── SessionSummary_Lesson04.md
+│   ├── Basic.csproj                 # Main project
+│   └── Program.cs                   # Main menu
 ├── Lesson01_HelloWorld/
-│   ├── Lesson.cs                    # Lesson content
-│   ├── Exercise.cs                  # Practice exercises
-│   └── ModernStyle.cs               # Reference
 ├── Lesson02_Variables/
-│   ├── Lesson.cs
-│   ├── Exercise.cs
-│   └── DataTypesReference.cs        # Reference
 ├── Lesson03_Operators/
-│   ├── Lesson.cs
-│   ├── Exercise.cs
-│   └── OperatorsReference.cs        # Reference
-└── Lesson04_TypeConversion/
-    ├── Lesson.cs
-    ├── Exercise.cs
-    └── ConversionReference.cs       # Reference
+├── Lesson04_TypeConversion/
+├── Lesson05_Conditionals/
+├── Lesson06_Switch/
+├── Lesson07_LoopsForWhile/
+└── Lesson08_ForeachBreakContinue/
 ```
 
 ## How to Run
@@ -109,13 +76,11 @@ Basic/
 
 ## To Resume
 
-When you return, simply say:
-
 > "Let's continue my C# learning"
 
 or
 
-> "Continue from Lesson 4"
+> "Continue from Lesson 9"
 
 ---
 

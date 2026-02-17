@@ -14,6 +14,10 @@
     <Compile Include="..\Lesson02_Variables\*.cs" LinkBase="Lessons\Lesson02" />
     <Compile Include="..\Lesson03_Operators\*.cs" LinkBase="Lessons\Lesson03" />
     <Compile Include="..\Lesson04_TypeConversion\*.cs" LinkBase="Lessons\Lesson04" />
+    <Compile Include="..\Lesson05_Conditionals\*.cs" LinkBase="Lessons\Lesson05" />
+    <Compile Include="..\Lesson06_Switch\*.cs" LinkBase="Lessons\Lesson06" />
+    <Compile Include="..\Lesson07_LoopsForWhile\*.cs" LinkBase="Lessons\Lesson07" />
+    <Compile Include="..\Lesson08_ForeachBreakContinue\*.cs" LinkBase="Lessons\Lesson08" />
     <!-- Future lessons will be added here -->
   </ItemGroup>
 

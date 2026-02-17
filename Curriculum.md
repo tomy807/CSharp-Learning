@@ -158,19 +158,23 @@
 
 | Phase | Status | Lessons Completed |
 |-------|--------|-------------------|
-| C# Fundamentals | In Progress | 4/20 |
+| C# Fundamentals | In Progress | 8/20 |
 | C# Intermediate | Not Started | 0/15 |
 | C# Advanced | Not Started | 0/10 |
 | WPF Development | Not Started | 0/20 |
 | Unity Development | Not Started | 0/25 |
 
-**Current Lesson**: Lesson 5 - Conditional Statements (if, else, else if)
+**Current Lesson**: Lesson 9 - Defining and Calling Methods
 
 ### Completed Lessons
 - [x] Lesson 1: Introduction to C#, .NET, and Your First Program
 - [x] Lesson 2: Variables and Data Types
 - [x] Lesson 3: Operators (Arithmetic, Comparison, Logical)
 - [x] Lesson 4: Type Conversion and Casting
+- [x] Lesson 5: Conditional Statements (if, else, else if)
+- [x] Lesson 6: Switch Statements and Pattern Matching
+- [x] Lesson 7: Loops - for and while
+- [x] Lesson 8: Loops - foreach and Loop Control (break, continue)
 
 ---
 
